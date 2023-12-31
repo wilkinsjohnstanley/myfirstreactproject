@@ -7,11 +7,13 @@ import Profile from './components/Profile'
 function App() {
   return (
     <div className="App">
-      <Hello></Hello>
-      <Message></Message>
-      <Profile name = "John"></Profile>
-      <Profile name = "Stanley"></Profile>
-      <Profile name = "Wilkins"></Profile>
+      {/* <Hello></Hello>
+      <Message></Message> */}
+
+{/* attributes passed to components are called props */}
+      <Profile name = "John" lastname = "Wilkins"></Profile>
+      <Profile name = "Pat"lastname = "Wilkins"></Profile>
+      <Profile name = "George"lastname = "Wilkins"></Profile>
     </div>
   );
 }
