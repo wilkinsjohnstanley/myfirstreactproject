@@ -12,10 +12,11 @@ function App() {
 
 {/* attributes passed to components are called props */}
       <Profile name = "John" lastname = "Wilkins">
-        <h3>John is the child of Pat and George.</h3>
+        <h1>John is the child of Pat and George.</h1>
       </Profile>
       <Profile name = "Pat" lastname = "Wilkins"></Profile>
       <Profile name = "George" lastname = "Wilkins"></Profile>
+      <Message secretMessage= "Hello from inside the message properties!"></Message>
     </div>
   );
 }
