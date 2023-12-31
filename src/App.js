@@ -11,7 +11,9 @@ function App() {
       <Message></Message> */}
 
 {/* attributes passed to components are called props */}
-      <Profile name = "John" lastname = "Wilkins"></Profile>
+      <Profile name = "John" lastname = "Wilkins">
+        <h3>John is the child of Pat and George.</h3>
+      </Profile>
       <Profile name = "Pat" lastname = "Wilkins"></Profile>
       <Profile name = "George" lastname = "Wilkins"></Profile>
     </div>
