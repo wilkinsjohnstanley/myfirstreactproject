@@ -13,6 +13,7 @@ function App() {
       <Message></Message> */}
         <Resume></Resume>
         <Counter></Counter>
+
         <FunctionEvent></FunctionEvent>
 {/* attributes passed to components are called props */}
       {/* <Profile name = "John" lastname = "Wilkins">
