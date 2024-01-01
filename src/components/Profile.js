@@ -2,9 +2,12 @@ function Profile(props){
     console.log(props)
     //props are immutable and read only
     //instead of props, we use 'state'!
-    return <h1>Name: {props.name} {props.lastname}
+    return 
+        <h1>
+        Name: {props.name} {props.lastname}
     {props.children}
-    </h1>
+          </h1>
+   
 }
 export default Profile;
 

@@ -10,14 +10,14 @@ function App() {
     <div className="App">
       {/* <Hello></Hello>
       <Message></Message> */}
-
+        <Counter></Counter>
 {/* attributes passed to components are called props */}
-      <Profile name = "John" lastname = "Wilkins">
+      {/* <Profile name = "John" lastname = "Wilkins">
         <h1>John is the child of Pat and George.</h1>
       </Profile>
       <Profile name = "Pat" lastname = "Wilkins"></Profile>
       <Profile name = "George" lastname = "Wilkins"></Profile>
-      <Message secretCode= "The secret code is 2024!"></Message>
+      <Message secretCode= "The secret code is 2024!"></Message> */}
     </div>
   );
 }
