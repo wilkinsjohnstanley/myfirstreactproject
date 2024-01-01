@@ -5,12 +5,15 @@ import Message from './components/Message'
 import Profile from './components/Profile'
 import Counter from './components/Counter';
 import Resume from './components/Resume';
+import FunctionEvent from './components/FunctionEvent'
 function App() {
   return (
     <div className="App">
       {/* <Hello></Hello>
       <Message></Message> */}
+        <Resume></Resume>
         <Counter></Counter>
+        <FunctionEvent></FunctionEvent>
 {/* attributes passed to components are called props */}
       {/* <Profile name = "John" lastname = "Wilkins">
         <h1>John is the child of Pat and George.</h1>
