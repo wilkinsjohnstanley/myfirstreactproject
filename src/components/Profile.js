@@ -1,11 +1,10 @@
 function Profile(props){
-    console.log(props)
-    //props are immutable and read only
-    //instead of props, we use 'state'!
+//destructure the object from props.
+    const { name, lastname} = props;
     return 
         <h1>
-        Name: {props.name} {props.lastname}
-    {props.children}
+        {/* Name: {props.name} {props.lastname} */}
+        Name: {name} {lastname}
           </h1>
    
 }
