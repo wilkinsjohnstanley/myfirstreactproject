@@ -16,7 +16,7 @@ function App() {
       </Profile>
       <Profile name = "Pat" lastname = "Wilkins"></Profile>
       <Profile name = "George" lastname = "Wilkins"></Profile>
-      <Message secretMessage= "Hello from inside the message properties!"></Message>
+      <Message secretCode= "The secret code is 2024!"></Message>
     </div>
   );
 }
